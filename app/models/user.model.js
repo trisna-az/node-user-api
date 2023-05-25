@@ -2,6 +2,7 @@ module.exports = mongoose => {
 
     const schema = mongoose.Schema(
         {
+            //Use unique
             name: {type: String, unique: true},
             phone: {type: String, unique: true},
         }, {
