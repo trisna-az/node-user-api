@@ -3,7 +3,7 @@ module.exports = mongoose => {
     const schema = mongoose.Schema(
         {
             name: String,
-            phone: Number,
+            phone: String,
         }, {
             timestamps: true
         }
