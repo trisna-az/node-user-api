@@ -2,8 +2,8 @@ module.exports = mongoose => {
 
     const schema = mongoose.Schema(
         {
-            name: String,
-            phone: String,
+            name: {type: String, unique: true},
+            phone: {type: String, unique: true}
         }, {
             timestamps: true
         }
