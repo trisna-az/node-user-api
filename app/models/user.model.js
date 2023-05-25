@@ -4,7 +4,7 @@ module.exports = mongoose => {
         {
             //Use unique
             name: String,
-            phone: Number,
+            phone: String,
         }, {
             timestamps: true
         }
